@@ -1,0 +1,3 @@
+La base è quella del chimera con le ghost cells in numero variabile,
+l'organizzazione dei dati è con tipi derivati: un intero (equivalente a icc) e
+un vettore allocabile per le eventuali informazioni chimera.
