@@ -1,7 +1,7 @@
 !< Xnavis *point* class definition
-module xnavis_point_t
+module xnavis_point
 
-   use xnavis_prec_t
+   use xnavis_prec
 
    implicit none
    private
@@ -251,4 +251,4 @@ module xnavis_point_t
 
 !........................
 !........................
-end module xnavis_point_t
+end module xnavis_point

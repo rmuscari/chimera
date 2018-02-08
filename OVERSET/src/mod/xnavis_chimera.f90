@@ -1,7 +1,7 @@
 !< Xnavis *chimera* class definition.
-module xnavis_chimera_t
+module xnavis_chimera
 !< Xnavis *chimera* class definition.
-   use xnavis_prec_t
+   use xnavis_prec
 
    implicit none
    private
@@ -88,4 +88,4 @@ module xnavis_chimera_t
          stop
       end subroutine errore
 
-endmodule xnavis_chimera_t
+endmodule xnavis_chimera

@@ -90,8 +90,9 @@ endif
 
 #===============================================================================
 # file sorgenti
-SRC1 = $(MOD)/xnavis_prec_t.f90
-SRC2 = $(MOD)/xnavis_chimera_t.f90 $(MOD)/xnavis_point_t.f90
+SRC1 = $(MOD)/xnavis_prec.f90
+SRC2 = $(MOD)/xnavis_param.f90 $(MOD)/xnavis_chimera.f90 \
+       $(MOD)/xnavis_point.f90
 SRC3 = $(filter-out $(SRC1) $(SRC2), $(wildcard $(MOD)/*.f90))
 SRC4 = $(wildcard $(SRC)/*.f90)
 

@@ -1,4 +1,4 @@
-module xnavis_prec_t
+module xnavis_prec
 
    implicit none
    save

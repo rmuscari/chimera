@@ -1,8 +1,9 @@
-module xnavis_cell_t
+module xnavis_cell
 
-   use xnavis_prec_t
-   use xnavis_point_t
-   use xnavis_chimera_t
+   use xnavis_prec
+   use xnavis_param
+   use xnavis_point
+   use xnavis_chimera
 
    implicit none
    private
@@ -57,4 +58,4 @@ module xnavis_cell_t
       endif
       end subroutine destroy
 
-end module xnavis_cell_t
+end module xnavis_cell
